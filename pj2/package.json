@@ -1,0 +1,19 @@
+{
+  "name": "pj2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "npx talwindcss -i ./src/input.css -o ./dist/style.css --watch",
+    "build-js": "npx esbuild src/script.js --outfile=./dist/script.js --bundle --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  },
+  "dependencies": {
+    "alpinejs": "^3.13.0",
+    "esbuild": "^0.19.3"
+  }
+}
